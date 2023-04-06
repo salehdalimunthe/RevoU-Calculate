@@ -1,0 +1,164 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* subtitle */
+.subtitle{
+    margin: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description{
+    margin: 10px 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* body page */
+body{
+    padding: 11px 24px;
+    scroll-behavior: smooth;
+}
+/* header page */
+.menu {
+    display: flex;
+    color: blue;
+    flex-direction: column;
+    align-items: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu > a{
+    text-decoration: none;
+    text-align: right;
+}
+.menu-segitiga{
+    background-color: blue;
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+}
+/* main content */
+/* main page luas segitiga */
+.card {
+    width: 40%;
+    border: 5px rgb(124, 124, 129) solid;
+    padding: 20px;
+    box-shadow: box-shadow -1px 7px 8px 1px rgba(199, 187, 187, 0.75);
+    -webkit-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h2 {
+    background-color: rgb(39, 126, 177);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.main-h1{
+    text-align: center;
+    font-size:x-large;
+
+}
+.main-form-segitiga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.main-form-segitiga >input{
+    padding: 8px;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.main-button-segitiga{
+    background-color: blue;
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* main page keliling segitiga */
+.card-keliling {
+    width: 40%;
+    border: 5px rgb(124, 124, 129) solid;
+    padding: 20px;
+    box-shadow: box-shadow -1px 7px 8px 1px rgba(199, 187, 187, 0.75);
+    -webkit-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.button-keliling{
+    background-color: blue;
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+}
+/* main page luas jajargenjang */
+.card-jajargenjang {
+    width: 40%;
+    border: 5px rgb(124, 124, 129) solid;
+    padding: 20px;
+    box-shadow: box-shadow -1px 7px 8px 1px rgba(199, 187, 187, 0.75);
+    -webkit-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main-form-jajargenjang{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.main-form-jajargenjang >input{
+    padding: 8px;
+    border-radius: 6px;
+    width: 40%;
+}
+.main-button-jajargenjang{
+    background-color: blue;
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+}
+/* main page keliling jajargenjang */
+.card-keliling-jajargenjang {
+    width: 40%;
+    border: 5px rgb(124, 124, 129) solid;
+    padding: 20px;
+    box-shadow: box-shadow -1px 7px 8px 1px rgba(199, 187, 187, 0.75);
+    -webkit-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 8px 1px rgba(0,0,0,0.75);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main-form-keliling-jajargenjang >input{
+    padding: 8px;
+    border-radius: 6px;
+    width: 40%;
+}
+.main-form-keliling-jajargenjang{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.button-keliling-jajargenjang{
+    background-color: blue;
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+
+}

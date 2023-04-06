@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segitiga Calculator </title>
+    <link rel="stylesheet" href="/Calculator-01/css/style.css">
+    <script src="/Calculator-01/js/index.js"></script>
+</head>
+<body>
+    <h1 class="subtitle">Welcome to My Calculate</h1>
+    <p class="description">Hai sobat, Selamat datang di My Calculator *,*</p>
+    <p class="description"> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling Segitiga</p>
+
+<!-- header/nav page -->
+<header>
+    
+    <nav>
+        <div class="menu">
+                <a href="#luas-segitiga">Luas Segitiga</a>
+                <a href="#keliling-segitiga">Keliling Segitiga</a>
+                <a href="#luas-jajargenjang">Luas Jajar genjang</a>
+                <a href="#keliling-jajargenjang">Keliling Jajargenjang</a>
+            </div>
+            <!-- <a href="#" class="menu-segitiga">Segitiga</a> -->
+            <!-- <a href="#" class="menu-jajargenjang">Jajargenjang</a> -->
+        </div>
+    </nav>
+</header>
+
+<!-- main page-->
+<!-- hitung luas segitiga -->
+<main>
+    <section id="luas-segitiga">
+    <div class="card">
+        <h2>Luas Segitiga</h2>
+    <img src="/Calculator-01/assets/01.jpg" alt="">
+    <h4>Rumus Luas Segitiga</h4>
+    <p>L = 1/2 x a x t</p>
+    <div>
+        <h5>Dimana:</h5>
+        <p>L = Luas</p>
+        <p>a = Panjang Alas</p>
+        <p>t = Tinggi</p>
+    </div>
+        <h1 class="main-h1">Luas Segitiga</h1>
+        <div class="main-form-segitiga">
+            <input type="number" id="alas-segitiga"placeholder="Alas">
+            <input type="number" id="tinggi-segitiga" placeholder="tinggi">
+        <button class="main-button-segitiga" onclick= "hitungluas1()">Hitung</button>
+        <div id="hasil-luas"></div>
+        
+    </div>
+</div>
+</section>
+</main>
+<!-- main page -->
+<!-- Hitung keliling Segitiga -->
+<main>
+    <section id="keliling-segitiga">
+    <div class="card-keliling">
+        <h2>Keliling Segitiga</h2>
+    <img src="/Calculator-01/assets/02.png" alt="">
+    <h4>Rumus Keliling Segitiga</h4>
+    <p>K = s + s + s</p>
+    <div>
+        <h5>Dimana:</h5>
+        <p>S adalah sisi keseluruhan keliling Jajargenjang</p>
+    </div>
+    <br>
+        <h1 class="main-h1">Luas Jajargenjang</h1>
+        <div class="main-form-segitiga">
+            <input type="number" id="s1"placeholder="sisi pertama">
+            <input type="number" id="s2" placeholder="sisi kedua">
+            <input type="number" id="s3" placeholder="sisi ketiga">
+        <button class="button-keliling-jajargenjang" onclick= "hitungkeliling1()">Hitung</button>
+        <div id="hasil-keliling"></div>
+        
+    </div>
+</div>
+</section>
+</main>
+<!-- main page luas jajargenjang -->
+<main>
+    <section id="luas-jajargenjang">
+    <div class="card-jajargenjang">
+        <h2>Luas Jajargenjang</h2>
+    <img src="/Calculator-01/assets/04.png" alt="">
+    <h4>Rumus Luas jajargenjang</h4>
+    <p>L = a x t</p>
+    <div>
+        <h5>Dimana:</h5>
+        <p>L = Luas</p>
+        <p>a = Panjang Alas</p>
+        <p>t = Tinggi</p>
+    </div>
+        <h1 class="main-h1">Luas Jajargenjang</h1>
+        <div class="main-form-jajargenjang">
+            <input type="number" id="alas-jajargenjang"placeholder="Alas">
+            <input type="number" id="tinggi-jajargenjang" placeholder="tinggi">
+        <button class="main-button-jajargenjang" onclick= "hitungluas2()">Hitung</button>
+        <div id="hasil-luas-jajargenjang"></div>
+        
+    </div>
+</div>
+</section>
+</main>
+<!-- keliling jajargenjang -->
+<main>
+    <section id="keliling-jajargenjang">
+    <div class="card-keliling-jajargenjang">
+        <h2>Keliling Jajargenjang</h2>
+    <img src="/Calculator-01/assets/03.jpg" alt="">
+    <h4>Rumus Keliling Jajargenjang</h4>
+    <p>K = 2x(a+b)</p>
+    <div>
+        <h5>Dimana:</h5>
+        <p>S adalah sisi keseluruhan keliling segitiga</p>
+    </div>
+    <br>
+        <h1 class="main-h1">Keliling Jajargenjang</h1>
+        <div class="main-form-keliling-jajargenjang">
+            <input type="number" id="k1"placeholder="sisi pertama">
+            <input type="number" id="k2" placeholder="sisi kedua">
+            <input type="number" id="k3" placeholder="sisi ketiga">
+            <input type="number" id="k4" placeholder="sisi keempat">
+        <button class="button-keliling-jajargenjang" onclick= "hitungkeliling2()">Hitung</button>
+        <div id="hasil-keliling-jajargenjang"></div>
+    </div>
+</div>
+</section>
+</main>
+<!-- footer page-->
+<footer>Copyright 2023 By Muhammad Saleh at Revo U</footer>
+</body>
+</html>
